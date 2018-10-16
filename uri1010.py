@@ -1,0 +1,10 @@
+codigoPeca1, qtdPeca1, valorUnitario1 = input().split(" ")
+codigoPeca2, qtdPeca2, valorUnitario2 = input().split(" ")
+codigoPeca1 = int(codigoPeca1)
+qtdPeca1 = int(qtdPeca1)
+valorUnitario1 = float(valorUnitario1)
+codigoPeca2 = int(codigoPeca2)
+qtdPeca2 = int(qtdPeca2)
+valorUnitario2 = float(valorUnitario2)
+valorTotal = valorUnitario1 * qtdPeca1 + valorUnitario2 * qtdPeca2
+print('VALOR A PAGAR: R$ %.2f' % valorTotal) 
