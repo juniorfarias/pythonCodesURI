@@ -13,6 +13,7 @@ if 0 < N < 1000000:
     cedulas2 = resto5//2
     resto2 = resto5 % 2
     cedulas1 = resto2//1
+    print('%d' % N)
     print('%d nota(s) de R$ 100,00' % cedulas100)
     print('%d nota(s) de R$ 50,00' % cedulas50)
     print('%d nota(s) de R$ 20,00' % cedulas20)
