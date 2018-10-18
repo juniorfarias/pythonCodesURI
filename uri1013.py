@@ -11,5 +11,5 @@ elif b > maior:
     maior = b
     if a > maior:
         maior = a
-print(maior)
+print('%d eh o maior' % maior)
 
